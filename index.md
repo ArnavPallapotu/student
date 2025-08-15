@@ -6,7 +6,7 @@ hide: true
 
 ### Me and Team
 
-Hi! My name is [Your Full Name].
+Hi! My name is Arnav Pallapotu.
 
 | Role         | Name     | Repo Location                       | Stream                | Repo Name |
 |--------------|----------|-------------------------------------|-----------------------|-----------|
@@ -39,7 +39,7 @@ Hi! My name is [Your Full Name].
 
 ### Class Progress
 
-<a href="{{site.baseurl}}/snake" class="button small" style="background-color: #6b4bd3ff">
+<a href="{{site.baseurl}}/snake" class="button small" style="background-color: #c01919ff">
     Snake Game
 </a>
 <a href="{{site.baseurl}}/turtle" class="button small" style="background-color: #2A7DB1">
@@ -54,3 +54,6 @@ Hi! My name is [Your Full Name].
 > Feel free to reach out if you'd like to collaborate or learn more about our work.
 
 <p style="color: #2A7DB1;">Open Coding Society: <a href="https://opencodingsociety.com" style="color: #2A7DB1; text-decoration: underline;">Socials</a></p>
+
+
+
