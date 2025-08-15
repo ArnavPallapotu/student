@@ -50,9 +50,9 @@ Hi! My name is Arnav Pallapotu.
 
 ### Color Change
 
-<p style = "color:red;"> This text is red. </p>
+<p style = "color: #fd0000ff;"> This text is red. </p>
 <p style="color:red;">I am red</p>
-<p style = "color:red; font-size:50px;"> This text is red and big. </p>
+<p style = "color: #fd0000ff; font-size:50px;"> This text is red and big. </p>
 
 
 <!-- Contact Section -->
