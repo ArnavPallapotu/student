@@ -48,6 +48,11 @@ Hi! My name is Arnav Pallapotu.
 
 <br>
 
+### Color Change
+
+<p style = "color:red;"> This text is red. </p>
+
+
 <!-- Contact Section -->
 ### Get in Touch
 
