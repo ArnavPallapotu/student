@@ -234,7 +234,7 @@ I also helped with the Vault quiz, which tested everything the player had learne
 <div class="reflection-box">
 <strong>If I Could Do It Over:</strong>
 
-If I could change anything, I'd probably spend more time helping with the actual lesson content instead of just the coding side. I tested all the lessons and noticed some parts that could've been clearer, but we didn't have enough time to fix them before the deadline.
+If I could change anything, I'd probably spend more time helping with the actual lesson content instead of just the coding side. I tested all the lessons and noticed some parts that could've been clearer , but we didn't have enough time to fix them before the deadline. Another problem was that our themeing on the page was super inconsistent, with different colors and different fonts on everything. This was not a good representation of our teamwork, and this should be considered next time.
 
 **Specific Improvements:**
 - More consistent difficulty progression in lessons
@@ -251,26 +251,24 @@ We should have started the lesson content earlier instead of focusing so heavily
 
 ## Team Dynamics Success
 
-What made this sprint successful was how well we worked together:
+Compared to Sprint 1, our teamwork was much better in comparison, however I somehow felt like I had to assign my own work to myself rather than being given tasks to do.
 
 **Communication:**
-- Daily standup messages in our group chat
-- Weekly video calls to check major progress
-- Shared Google Doc for tracking who's doing what
+- Messages to each other in our group chat
+- Work together as a team every 4th period
+- Updated each other on how everything was going
 - Honest feedback when something wasn't working
 
 **Problem-Solving:**
 When someone hit a roadblock, we'd:
-1. Try to solve it individually for ~30 minutes
-2. Ask the group chat for hints
-3. Screen-share if it's still not working
-4. Document the solution so others don't hit the same issue
+1. Work through it together as a team
+2. Message each other at home 
+3. Make sure that we don't repeat mistakes
 
-**Code Quality:**
-- Code reviews before merging
-- Consistent naming conventions
-- Comments on complex logic
-- README documentation for setup
+**Code Quality Improvements:**
+- Code reviews before pushing (theming got completely messed up when we didnt check, and afterwards, we checked each push with eachother)
+- Consistent naming conventions (We ended up changing the permalinks a lot and it got confusing)
+
 
 ---
 
@@ -278,32 +276,25 @@ When someone hit a roadblock, we'd:
 
 This sprint pushed me to learn:
 
-**Frontend:**
-- More advanced CSS animations
-- Better component organization
-- Responsive design principles
-- Accessibility considerations
 
-**Backend:**
-- Data persistence strategies
-- User authentication concepts (even though we simplified it)
-- API design thinking
-- Error handling best practices
+**Frontend:**
+- CSS and markdown in combination
+- Making sure navigation is clean on everything
+- Making the site look nice and responsive
 
 **General:**
-- Project architecture planning
-- Feature prioritization
-- MVP (Minimum Viable Product) thinking
-- Balancing perfectionism with deadlines
+- Better teamwork in a group setting
+- How to handle errors and work through them together
+- The importance of clear documentation and code comments
+
 
 ---
 
 ## Pride Points
 
-Despite the things I'd change, I was genuinely proud of:
-- The smooth unlock animations in the vault
-- How we handled edge cases (like duplicate codes)
-- The quiz feedback system
+Despite the things I'd change, I was proud of:
+- The functionality and intuitiveness of the vault
+- Save feature on the quiz
 - How well our team collaborated
 - Actually finishing a complete, working project
 

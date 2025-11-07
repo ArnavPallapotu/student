@@ -149,40 +149,31 @@ body {
 </div>
 
 <div class="content-section">
-  <h2>Project Overview</h2>
-  <p>Our project, titled "Digital Famine," aimed to explore the impacts of digital technology on society, particularly focusing on the themes of information overload and digital detox. We wanted to create an interactive experience that would engage users and encourage them to reflect on their own digital consumption habits.</p>
+  <h2>Overview</h2>
+  <p>For Night at the Museum, we presented our project <strong>Digital Famine</strong>, which was a gamified lesson where users had to complete planets to defend against an alien attack. Each completed planet unlocked a new lesson page, tying coding concepts to interactive gameplay.</p>
 </div>
 
 <div class="content-section">
-  <h2>My Contributions</h2>
-  <p>In this project, I took on the role of a developer and designer. I was responsible for building the front-end of the application using HTML, CSS, and JavaScript. Additionally, I worked on creating interactive elements that would respond to user input and provide a dynamic experience.</p>
-</div>
-
-<div class="content-section">
-  <h2>Challenges Faced</h2>
-  <p>One of the main challenges we encountered was ensuring that the interactive elements were intuitive and added real value to the user experience. We had to iterate on our designs multiple times based on user feedback to get it right.</p>
+  <h2>Presentation Experience</h2>
+  <p>The event went really well overall. I enjoyed teaching our lessons to parents and other computer science students who visited. I mainly talked about the <strong>Vault features</strong> — how they worked behind the scenes — and walked people through the <strong>Vault quiz</strong> to show how it tracked progress and displayed results dynamically.</p>
 </div>
 
 <div class="content-section">
   <h2>Feedback Received</h2>
+
   <div class="feedback-card positive">
     <h3>Positive Feedback</h3>
-    <p>Many users appreciated the concept of the project and found the interactive elements engaging. The visual design also received positive remarks for being clean and modern.</p>
+    <p>Many people said our lessons were engaging and fun to follow. Several visitors left nice comments about how clearly we explained the material and how the gamified format made the experience more enjoyable.</p>
   </div>
 
   <div class="feedback-card constructive">
     <h3>Constructive Feedback</h3>
-    <p>Some users suggested that certain interactions were not immediately clear and required additional instructions. A few also mentioned that they would have liked to see more data visualizations to complement the information presented.</p>
+    <p>Some feedback mentioned that we could have spoken a little louder and been more organized when presenting as a team. Having more structure between speakers would have made our presentation flow better.</p>
   </div>
 </div>
 
-<div class="content-section">
-  <h2>Key Learnings</h2>
-  <p>This project taught me a great deal about the importance of user-centered design and the need for clear, intuitive interactions. I also learned how to effectively incorporate feedback into the development process to improve the overall quality of the project.</p>
-</div>
-
 <div class="highlight-moment">
-  <strong>Highlight Moment:</strong> Presenting our project to the class and receiving constructive feedback was a key moment for me. It was rewarding to see our hard work being recognized, and the feedback provided us with valuable insights on how to improve further.
+  <strong>Highlight Moment:</strong> Getting positive feedback from parents and students felt great. It was cool to see people genuinely interested in what we built and to see our project come to life in front of an audience.
 </div>
 
 <div class="nav-buttons">

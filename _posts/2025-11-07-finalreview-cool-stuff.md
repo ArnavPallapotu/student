@@ -74,20 +74,3 @@ Fetching data from an API doesn’t happen instantly. The request goes to the se
 **The Solution:**  
 Promises let JavaScript say "I’ll do this task and let you know when it’s done" while the rest of the code keeps running.
 
-```javascript
-// Using promises
-fetch('https://api.example.com/data')
-  .then(response => response.json())
-  .then(data => console.log(data))
-  .catch(error => console.error('Error:', error));
-
-// Using async/await
-async function getData() {
-  try {
-    const response = await fetch('https://api.example.com/data');
-    const data = await response.json();
-    console.log(data);
-  } catch (error) {
-    console.error('Error:', error);
-  }
-}

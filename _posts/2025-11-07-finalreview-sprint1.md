@@ -204,19 +204,6 @@ code {
 
 <p>This was probably one of the most useful things I learned in Sprint 1. At first, I didn't get why we couldn't just grab data from an API immediately. But once I understood how asynchronous JavaScript works, it made way more sense:</p>
 
-```javascript
-// This doesn't work because fetch returns a promise
-let data = fetch('api-url');
-console.log(data); // Shows Promise, not the actual data
-
-// This works because we wait for the response
-async function getData() {
-    let response = await fetch('api-url');
-    let data = await response.json();
-    console.log(data); // Shows actual data
-}
-```
-
 <p>Understanding this pattern changed how I thought about coding. It wasn't just about copying examples — it was about actually knowing why things work the way they do.</p>
 </div>
 
