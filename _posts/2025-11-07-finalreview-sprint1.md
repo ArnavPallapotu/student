@@ -187,24 +187,16 @@ code {
 <div class="content-section">
 <h2>Working with APIs</h2>
 
-<p>One of my first contributions was helping make a lesson on APIs for the class hacks (basically mini lessons we teach each other). I specifically worked on the part about asynchronous functions and the <code>await</code> keyword. It was helpful because teaching something forces you to actually understand it.</p>
+<p>One of my first contributions was helping make a lesson on APIs for the class hacks. I specifically worked on the part about asynchronous functions and the <code>await</code> keyword. It was helpful because teaching something forces you to actually understand it.</p>
 
-<p>After that, I chose to work on an iTunes API project where we took an existing hack and added our own features to it. We added things like:</p>
+<p>After that, I chose to work on an iTunes API project where we took the existing itunes hack and added our own features to it. We added things like:</p>
 <ul>
   <li>A search bar that saves your results so you don't lose them</li>
   <li>A feature where you can filter songs by different genres</li>
   <li>Some other small improvements to make it more user-friendly</li>
 </ul>
 
-<p>It wasn't anything crazy, but it was one of the first times I felt like I actually built something that worked and did something useful.</p>
-</div>
-
-<div class="content-section">
-<h2>Understanding Asynchronous Code</h2>
-
-<p>This was probably one of the most useful things I learned in Sprint 1. At first, I didn't get why we couldn't just grab data from an API immediately. But once I understood how asynchronous JavaScript works, it made way more sense:</p>
-
-<p>Understanding this pattern changed how I thought about coding. It wasn't just about copying examples — it was about actually knowing why things work the way they do.</p>
+<p>It wasn't anything crazy, but it was one of the first times I felt like I actually built something that worked and did something useful. The only problem was that this topic wasn't really in scope with what we were doing in class, and if I were to do it again, I would probably pick a simpler hack.</p>
 </div>
 
 <div class="content-section">

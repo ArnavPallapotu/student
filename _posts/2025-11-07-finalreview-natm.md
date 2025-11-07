@@ -149,8 +149,9 @@ body {
 </div>
 
 <div class="content-section">
-  <h2>Overview</h2>
-  <p>For Night at the Museum, we presented our project <strong>Digital Famine</strong>, which was a gamified lesson where users had to complete planets to defend against an alien attack. Each completed planet unlocked a new lesson page, tying coding concepts to interactive gameplay.</p>
+  <h2>The Event</h2>
+
+  <p>Night at the Museum was our chance to showcase the Digital Famine project to parents, and other cs students. It was exciting but also nerve-wracking because we had to explain what we built and answer questions about it.</p>
 </div>
 
 <div class="content-section">
@@ -163,7 +164,7 @@ body {
 
   <div class="feedback-card positive">
     <h3>Positive Feedback</h3>
-    <p>Many people said our lessons were engaging and fun to follow. Several visitors left nice comments about how clearly we explained the material and how the gamified format made the experience more enjoyable.</p>
+    <p>Many people said our lessons were engaging and fun to follow. Visitors left nice comments about how clearly we explained the material and how the gamified format made the experience more enjoyable.</p>
   </div>
 
   <div class="feedback-card constructive">

@@ -152,6 +152,12 @@ body {
   <h1>Sprint 3: Digital Famine Project</h1>
 </div>
 
+<div class="content-section">
+<h2>The Struggle of Getting Started</h2>
+
+<p>At the beginning of the year, I struggled a lot with the setup process and just figuring out what to do. My group at the time was really advanced, and while they worked quickly, I often felt left behind. They didn't really explain what I should be doing, so I had to figure out a lot of things on my own. The worst part was getting my tools to actually work. I kept running into issues with make commands and virtual environments that I didn't know how to fix. Everyone else seemed to have their environment running smoothly while I was stuck troubleshooting for hours.</p>
+</div>
+
 ## Reuniting with Original Team
 
 In the final sprint, I went back to my original group for the Digital Famine project. This time, though, things were completely different. We had all grown as developers and as teammates. We were much more organized than before, everyone had a specific task, and we communicated better. It was like night and day compared to Sprint 1.
