@@ -2,7 +2,7 @@
 layout: base
 title: Final Review Project
 description: My experiences throughout the trimester and everything I have learned and accomplished.
-permalink: /finalreviewblog
+permalink: /finalreviewblog/
 toc: false
 comments: true
 ---
@@ -10,27 +10,29 @@ comments: true
 <style>
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background: #f8f9fa;
 }
 
 .intro-section {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
   color: white;
   padding: 3rem 2rem;
-  border-radius: 12px;
+  border-radius: 16px;
   margin-bottom: 3rem;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  box-shadow: 0 10px 40px rgba(79, 172, 254, 0.3);
 }
 
 .intro-section h1 {
   margin-top: 0;
   font-size: 2.5rem;
   font-weight: 700;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .intro-section p {
   font-size: 1.1rem;
-  line-height: 1.6;
-  opacity: 0.95;
+  line-height: 1.7;
+  opacity: 0.98;
 }
 
 .section-header {
@@ -40,32 +42,33 @@ body {
 
 .section-header h2 {
   font-size: 2rem;
-  color: #2d3748;
+  color: #1a202c;
   margin-bottom: 0.5rem;
+  font-weight: 700;
 }
 
 .section-header p {
-  color: #718096;
+  color: #4a5568;
   font-size: 1.1rem;
 }
 
 .topic-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
-  margin: 2rem 0;
+  margin: 2rem 0 3rem 0;
 }
 
 .topic-card {
   background: white;
-  border: 1px solid #e2e8f0;
-  border-radius: 12px;
-  padding: 2rem;
-  transition: all 0.3s ease;
+  border: 2px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   text-decoration: none;
-  color: inherit;
+  color: #1a202c;
   display: block;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.07);
   position: relative;
   overflow: hidden;
 }
@@ -76,10 +79,11 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 4px;
-  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  height: 5px;
+  background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
   transform: scaleX(0);
   transition: transform 0.3s ease;
+  transform-origin: left;
 }
 
 .topic-card:hover::before {
@@ -87,44 +91,50 @@ body {
 }
 
 .topic-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
-  border-color: #667eea;
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(79, 172, 254, 0.2);
+  border-color: #4facfe;
 }
 
 .topic-card h3 {
   margin-top: 0;
-  color: #2d3748;
-  font-size: 1.5rem;
-  font-weight: 600;
+  color: #1a202c;
+  font-size: 1.6rem;
+  font-weight: 700;
   border: none;
   padding: 0;
-  margin-bottom: 0.75rem;
-}
-
-.topic-card p {
   margin-bottom: 0;
-  color: #718096;
-  line-height: 1.6;
 }
 
 .conclusion-section {
-  background: #f7fafc;
-  border-left: 4px solid #667eea;
-  padding: 2rem;
-  border-radius: 8px;
+  background: white;
+  border-left: 5px solid #4facfe;
+  padding: 2.5rem;
+  border-radius: 12px;
   margin-top: 3rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 }
 
 .conclusion-section h2 {
-  color: #2d3748;
+  color: #1a202c;
   margin-top: 0;
+  font-weight: 700;
 }
 
 .conclusion-section p {
-  color: #4a5568;
+  color: #2d3748;
   line-height: 1.8;
   font-size: 1.05rem;
+}
+
+@media (max-width: 768px) {
+  .topic-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .intro-section h1 {
+    font-size: 2rem;
+  }
 }
 </style>
 
@@ -140,33 +150,28 @@ body {
 </div>
 
 <div class="topic-grid">
-  <a href="/finalreviewblog/sprint1" class="topic-card">
-    <h3>Sprint 1: Tools & APIs</h3>
-    <p>Learning the basics and working with APIs</p>
+  <a href="{{ site.baseurl }}/finalreviewblog/sprint1" class="topic-card">
+    <h3>Sprint 1</h3>
   </a>
 
-  <a href="/finalreviewblog/sprint2" class="topic-card">
-    <h3>Sprint 2: Fundamentals</h3>
-    <p>Python, JavaScript, and teamwork</p>
+  <a href="{{ site.baseurl }}/finalreviewblog/sprint2" class="topic-card">
+    <h3>Sprint 2</h3>
   </a>
 
-  <a href="/finalreviewblog/sprint3" class="topic-card">
-    <h3>Sprint 3: Digital Famine</h3>
-    <p>Building the final project</p>
+  <a href="{{ site.baseurl }}/finalreviewblog/sprint3" class="topic-card">
+    <h3>Sprint 3</h3>
   </a>
 
-  <a href="/finalreviewblog/natm" class="topic-card">
+  <a href="{{ site.baseurl }}/finalreviewblog/natm" class="topic-card">
     <h3>Night at the Museum</h3>
-    <p>Presenting our work and getting feedback</p>
   </a>
 
-  <a href="/finalreviewblog/future" class="topic-card">
-    <h3>What's Next</h3>
-    <p>Future project ideas and learning goals</p>
+  <a href="{{ site.baseurl }}/finalreviewblog/future" class="topic-card">
+    <h3>Future</h3>
   </a>
 </div>
 
 <div class="conclusion-section">
   <h2>Conclusion</h2>
-  <p>This year really taught me a lot, not just about programming, but about working with people, staying organized, and learning how to keep improving. At the start, I struggled to even get things set up, and now I can confidently build projects, explain concepts, and collaborate effectively. I still have a lot to learn, but I feel like I've built a solid foundation to keep going from here.</p>
+  <p>This year really taught me a lot — not just about programming, but about working with people, staying organized, and learning how to keep improving. At the start, I struggled to even get things set up, and now I can confidently build projects, explain concepts, and collaborate effectively. I still have a lot to learn, but I feel like I've built a solid foundation to keep going from here.</p>
 </div>

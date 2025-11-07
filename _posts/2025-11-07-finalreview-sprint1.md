@@ -1,61 +1,248 @@
-# Sprint 1: Tools and Getting Started
+---
+layout: base
+title: Sprint 1 - Tools and APIs
+description: My first sprint learning development tools and working with APIs
+permalink: /finalreviewblog/sprint1/
+toc: true
+comments: true
+---
 
-## The Struggle of Getting Started
+<style>
+body {
+  background: #f8f9fa;
+}
 
-At the start of the year, I had a hard time setting up all the tools. My group was very advanced and moved quickly, so I often didn’t know what I should be doing. I spent a lot of time trying to fix issues with make commands and virtual environments. Everyone else seemed to have their environment running fine while I ran into these small issues, which was frustrating. I also had to figure out Git and GitHub while trying to contribute in small ways. In the end, part of the problem was my really old computer, and after switching to a new one, things got a lot easier.
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 2.5rem 0;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.nav-button {
+  padding: 0.875rem 1.75rem;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(79, 172, 254, 0.3);
+  font-size: 0.95rem;
+}
+
+.nav-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(79, 172, 254, 0.4);
+  color: white;
+}
+
+.page-header {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  color: white;
+  padding: 2.5rem 2rem;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+  box-shadow: 0 10px 40px rgba(79, 172, 254, 0.3);
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.content-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-left: 4px solid #4facfe;
+}
+
+.content-section h2 {
+  color: #1a202c;
+  margin-top: 0;
+  font-weight: 700;
+}
+
+.content-section h3 {
+  color: #2d3748;
+  font-weight: 600;
+}
+
+.highlight-box {
+  background: linear-gradient(135deg, rgba(79, 172, 254, 0.1) 0%, rgba(0, 242, 254, 0.1) 100%);
+  border-left: 5px solid #4facfe;
+  padding: 1.75rem;
+  border-radius: 10px;
+  margin: 2rem 0;
+}
+
+.highlight-box strong {
+  color: #1a202c;
+  font-size: 1.1rem;
+}
+
+.highlight-box ul {
+  margin: 1rem 0 0 0;
+  color: #2d3748;
+  line-height: 1.8;
+}
+
+.project-showcase {
+  background: white;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.project-showcase h3 {
+  color: #4facfe;
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.project-showcase p, .project-showcase ul {
+  color: #2d3748;
+  line-height: 1.8;
+}
+
+.project-showcase strong {
+  color: #1a202c;
+}
+
+pre {
+  background: #1a202c;
+  padding: 1.5rem;
+  border-radius: 10px;
+  overflow-x: auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+code {
+  color: #e2e8f0;
+  font-family: 'Courier New', monospace;
+}
+
+@media (max-width: 768px) {
+  .nav-buttons {
+    flex-direction: column;
+  }
+  
+  .page-header h1 {
+    font-size: 2rem;
+  }
+}
+</style>
+
+<div class="nav-buttons">
+  <a href="{{ site.baseurl }}/finalreviewblog/" class="nav-button">← Back to Overview</a>
+  <a href="{{ site.baseurl }}/finalreviewblog/sprint2" class="nav-button">Next: Sprint 2 →</a>
+</div>
+
+<div class="page-header">
+  <h1>Sprint 1: Tools and APIs</h1>
+</div>
+
+<div class="content-section">
+<h2>The Struggle of Getting Started</h2>
+
+<p>At the beginning of the year, I struggled a lot with the setup process and just figuring out what to do. My group at the time was really advanced, and while they worked quickly, I often felt left behind. They didn't really explain what I should be doing, so I had to figure out a lot of things on my own. The worst part was getting my tools to actually work. I kept running into issues with make commands and virtual environments that I didn't know how to fix. Everyone else seemed to have their environment running smoothly while I was stuck troubleshooting for hours.</p>
 
 <div class="highlight-box">
 <strong>Initial Challenges:</strong>
 <ul>
-  <li>Getting make commands to work</li>
+  <li>Getting make commands to work properly</li>
   <li>Setting up and activating virtual environments</li>
-  <li>Understanding what my teammates were doing</li>
+  <li>Understanding what my teammates were doing (they moved fast)</li>
   <li>Learning Git and GitHub basics</li>
-  <li>Finding ways to contribute when I wasn’t sure what to do</li>
+  <li>Not really knowing what I should be contributing</li>
 </ul>
 </div>
 
-## Finding My Role
+<h2>Finding My Role</h2>
 
-Even with these problems, I tried to contribute wherever I could. Once we started working on projects, I started enjoying the coding. I realized that knowing your tools and environment is important. Once I got my setup working, I felt more confident.
+<p>Still, I tried to contribute however I could, and once we started working on actual projects, I actually enjoyed it a lot. Even though the setup was frustrating, the coding part was fun.</p>
+</div>
 
----
+<div class="content-section">
+<h2>Working with APIs</h2>
 
-## Working on Class Hacks
+<p>One of my first contributions was helping make a lesson on APIs for the class hacks (basically mini lessons we teach each other). I specifically worked on the part about asynchronous functions and the <code>await</code> keyword. It was helpful because teaching something forces you to actually understand it.</p>
 
-One of my first tasks was helping make a lesson for the class hacks on asynchronous functions and the `await` keyword. Teaching the lesson helped me understand the topic better. After that, I worked on an iTunes API project where we added a search bar that saves results and a genre filter. It was not complicated, but it was one of the first projects I completed and it worked as intended.
+<p>After that, I chose to work on an iTunes API project where we took an existing hack and added our own features to it. We added things like:</p>
+<ul>
+  <li>A search bar that saves your results so you don't lose them</li>
+  <li>A feature where you can filter songs by different genres</li>
+  <li>Some other small improvements to make it more user-friendly</li>
+</ul>
 
----
+<p>It wasn't anything crazy, but it was one of the first times I felt like I actually built something that worked and did something useful.</p>
+</div>
 
-## Understanding Asynchronous Code
+<div class="content-section">
+<h2>Understanding Asynchronous Code</h2>
 
-Before making my lesson, I did not understand why data from an API is not available immediately. Learning how asynchronous JavaScript works helped me see why `fetch()` returns a promise and why you need to `await` it. Understanding this made debugging easier and gave me more confidence to work with APIs.
+<p>This was probably one of the most useful things I learned in Sprint 1. At first, I didn't get why we couldn't just grab data from an API immediately. But once I understood how asynchronous JavaScript works, it made way more sense:</p>
 
----
+```javascript
+// This doesn't work because fetch returns a promise
+let data = fetch('api-url');
+console.log(data); // Shows Promise, not the actual data
 
-## Lessons Learned
+// This works because we wait for the response
+async function getData() {
+    let response = await fetch('api-url');
+    let data = await response.json();
+    console.log(data); // Shows actual data
+}
+```
 
-### Technical Skills
-- Setting up a working environment from scratch  
-- Fixing issues with virtual environments and terminal commands  
-- Basic understanding of asynchronous code with `async` and `await`  
-- Using Git and GitHub for version control  
+<p>Understanding this pattern changed how I thought about coding. It wasn't just about copying examples — it was about actually knowing why things work the way they do.</p>
+</div>
 
-### Soft Skills
-- Persistence: Working through frustrating setup problems  
-- Independence: Figuring out problems on my own  
-- Asking questions: Learning that it is better to ask than stay stuck  
-- Teaching: Explaining topics helped me understand them better  
+<div class="content-section">
+<h2>Lessons Learned</h2>
 
----
+<h3>Technical Skills</h3>
+<ul>
+  <li>How to work with APIs and handle asynchronous code</li>
+  <li>Basic understanding of <code>async</code>, <code>await</code>, and promises</li>
+  <li>Using <code>fetch()</code> to get data from external sources</li>
+  <li>Debugging when things don't work (which was often)</li>
+</ul>
 
-## What I Would Do Differently
+<h3>Soft Skills</h3>
+<ul>
+  <li><strong>Persistence:</strong> Not giving up even when setup was frustrating</li>
+  <li><strong>Figuring things out independently:</strong> Had to google a lot when teammates couldn't help</li>
+  <li><strong>Asking questions:</strong> Learned it's better to ask than stay confused</li>
+  <li><strong>Teaching others:</strong> Explaining async concepts helped me understand them better</li>
+</ul>
+</div>
 
-I would ask for help sooner instead of trying to fix everything on my own. I would also take better notes during setup so I wouldn’t have to relearn things later. Overall, this sprint taught me that getting stuck is part of learning and that figuring things out on my own helps build skills.
+<div class="content-section">
+<h2>What I'd Do Differently</h2>
 
----
+<p>Looking back, I wish I had:</p>
+<ul>
+  <li>Asked for help earlier with the virtual environment issues instead of wasting time</li>
+  <li>Been more assertive about what I should be working on</li>
+  <li>Taken better notes on the setup process so I wouldn't forget</li>
+  <li>Spent more time understanding Git from the beginning</li>
+</ul>
+
+<p>Despite the rough start, this sprint taught me a lot — mostly that struggling through problems is part of learning, and that it's okay to not understand everything immediately.</p>
+</div>
 
 <div class="nav-buttons">
-  <a href="/finalreviewblog" class="nav-button">← Back to Overview</a>
-  <a href="/finalreviewblog/sprint2" class="nav-button">Next: Sprint 2 →</a>
+  <a href="{{ site.baseurl }}/finalreviewblog/" class="nav-button">← Back to Overview</a>
+  <a href="{{ site.baseurl }}/finalreviewblog/sprint2" class="nav-button">Next: Sprint 2 →</a>
 </div>
