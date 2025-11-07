@@ -74,4 +74,41 @@ One of the coolest things I learned this year was how asynchronous JavaScript ac
 This year really taught me a lot — not just about programming, but about working with people, staying organized, and learning how to keep improving. At the start, I struggled to even get things set up, and now I can confidently build projects, explain concepts, and collaborate effectively. I still have a lot to learn, but I feel like I’ve built a solid foundation to keep going from here.
 
 
+.toc {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+  font-size: 0.95rem;
+}
 
+.toc h2 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  border: none;
+  padding-left: 0;
+}
+
+.toc ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.toc ul li {
+  margin-bottom: 0.4rem;
+}
+
+.toc ul li a {
+  text-decoration: none;
+  color: #0056b3;
+}
+
+.toc ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Optional: add smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
