@@ -23,7 +23,7 @@ body {
 .nav-button {
   padding: 0.875rem 1.75rem;
   background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-  color: white;
+  color: #1a202c;
   text-decoration: none;
   border-radius: 10px;
   font-weight: 600;
@@ -35,7 +35,7 @@ body {
 .nav-button:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 25px rgba(79, 172, 254, 0.4);
-  color: white;
+  color: #1a202c;
 }
 
 .page-header {
