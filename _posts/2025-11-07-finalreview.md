@@ -10,29 +10,33 @@ comments: true
 <style>
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  background: #f8f9fa;
+  background: #0a0a0a;
+  color: #ffffff;
 }
 
 .intro-section {
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
   color: white;
   padding: 3rem 2rem;
   border-radius: 16px;
   margin-bottom: 3rem;
-  box-shadow: 0 10px 40px rgba(79, 172, 254, 0.3);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  border: 1px solid #333;
 }
 
 .intro-section h1 {
   margin-top: 0;
   font-size: 2.5rem;
   font-weight: 700;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  color: #ffffff;
 }
 
 .intro-section p {
   font-size: 1.1rem;
   line-height: 1.7;
-  opacity: 0.98;
+  opacity: 0.95;
+  color: #e0e0e0;
 }
 
 .section-header {
@@ -42,13 +46,13 @@ body {
 
 .section-header h2 {
   font-size: 2rem;
-  color: #1a202c;
+  color: #ffffff;
   margin-bottom: 0.5rem;
   font-weight: 700;
 }
 
 .section-header p {
-  color: #4a5568;
+  color: #b0b0b0;
   font-size: 1.1rem;
 }
 
@@ -60,15 +64,15 @@ body {
 }
 
 .topic-card {
-  background: white;
-  border: 2px solid #e2e8f0;
+  background: #1a1a1a;
+  border: 2px solid #333;
   border-radius: 16px;
   padding: 2.5rem 2rem;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   text-decoration: none;
-  color: #1a202c;
+  color: #ffffff;
   display: block;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.07);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
   position: relative;
   overflow: hidden;
 }
@@ -92,13 +96,14 @@ body {
 
 .topic-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(79, 172, 254, 0.2);
+  box-shadow: 0 20px 40px rgba(79, 172, 254, 0.3);
   border-color: #4facfe;
+  background: #222;
 }
 
 .topic-card h3 {
   margin-top: 0;
-  color: #1a202c;
+  color: #ffffff;
   font-size: 1.6rem;
   font-weight: 700;
   border: none;
@@ -107,22 +112,23 @@ body {
 }
 
 .conclusion-section {
-  background: white;
+  background: #1a1a1a;
   border-left: 5px solid #4facfe;
   padding: 2.5rem;
   border-radius: 12px;
   margin-top: 3rem;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  border: 1px solid #333;
 }
 
 .conclusion-section h2 {
-  color: #1a202c;
+  color: #ffffff;
   margin-top: 0;
   font-weight: 700;
 }
 
 .conclusion-section p {
-  color: #2d3748;
+  color: #e0e0e0;
   line-height: 1.8;
   font-size: 1.05rem;
 }
