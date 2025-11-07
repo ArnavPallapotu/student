@@ -140,53 +140,33 @@ body {
 </div>
 
 <div class="topic-grid">
-  <a href="/finalreview/comparison" class="topic-card">
-    <h3>Then vs Now</h3>
-    <p>Comparing myself to the beginning of the year</p>
-  </a>
-
-  <a href="/finalreview/sprint1" class="topic-card">
+  <a href="/finalreviewblog/sprint1" class="topic-card">
     <h3>Sprint 1: Tools & APIs</h3>
     <p>Learning the basics and working with APIs</p>
   </a>
 
-  <a href="/finalreview/sprint2" class="topic-card">
+  <a href="/finalreviewblog/sprint2" class="topic-card">
     <h3>Sprint 2: Fundamentals</h3>
     <p>Python, JavaScript, and teamwork</p>
   </a>
 
-  <a href="/finalreview/sprint3" class="topic-card">
+  <a href="/finalreviewblog/sprint3" class="topic-card">
     <h3>Sprint 3: Digital Famine</h3>
     <p>Building the final project</p>
   </a>
 
-  <a href="/finalreview/natm" class="topic-card">
+  <a href="/finalreviewblog/natm" class="topic-card">
     <h3>Night at the Museum</h3>
     <p>Presenting our work and getting feedback</p>
   </a>
 
-  <a href="/finalreview/future" class="topic-card">
+  <a href="/finalreviewblog/future" class="topic-card">
     <h3>What's Next</h3>
     <p>Future project ideas and learning goals</p>
-  </a>
-
-  <a href="/finalreview/analytics" class="topic-card">
-    <h3>Analytics Review</h3>
-    <p>Reviewing my progress and patterns</p>
-  </a>
-
-  <a href="/finalreview/mcq" class="topic-card">
-    <h3>MCQ Review</h3>
-    <p>Multiple choice scores, corrections, and approach</p>
-  </a>
-
-  <a href="/finalreview/cool-stuff" class="topic-card">
-    <h3>Something Cool</h3>
-    <p>Interesting things I learned and want to share</p>
   </a>
 </div>
 
 <div class="conclusion-section">
   <h2>Conclusion</h2>
-  <p>This year really taught me a lot — not just about programming, but about working with people, staying organized, and learning how to keep improving. At the start, I struggled to even get things set up, and now I can confidently build projects, explain concepts, and collaborate effectively. I still have a lot to learn, but I feel like I've built a solid foundation to keep going from here.</p>
+  <p>This year really taught me a lot, not just about programming, but about working with people, staying organized, and learning how to keep improving. At the start, I struggled to even get things set up, and now I can confidently build projects, explain concepts, and collaborate effectively. I still have a lot to learn, but I feel like I've built a solid foundation to keep going from here.</p>
 </div>

@@ -2,7 +2,7 @@
 layout: base
 title: Sprint 3 - Digital Famine Project
 description: Building our final project with better organization and teamwork
-permalink: /finalreview/sprint3
+permalink: /finalreviewblog/sprint3
 toc: true
 comments: true
 ---
@@ -62,8 +62,8 @@ comments: true
 </style>
 
 <div class="nav-buttons">
-  <a href="/finalreview/sprint2" class="nav-button">← Previous: Sprint 2</a>
-  <a href="/finalreview/natm" class="nav-button">Next: Night at the Museum →</a>
+  <a href="/finalreviewblog/sprint2" class="nav-button">← Previous: Sprint 2</a>
+  <a href="/finalreviewblog/natm" class="nav-button">Next: Night at the Museum →</a>
 </div>
 
 # Sprint 3: Digital Famine Project
@@ -226,6 +226,6 @@ Despite the things I'd change, I was genuinely proud of:
 ---
 
 <div class="nav-buttons">
-  <a href="/finalreview/sprint2" class="nav-button">← Previous: Sprint 2</a>
-  <a href="/finalreview/natm" class="nav-button">Next: Night at the Museum →</a>
+  <a href="/finalreviewblog/sprint2" class="nav-button">← Previous: Sprint 2</a>
+  <a href="/finalreviewblog/natm" class="nav-button">Next: Night at the Museum →</a>
 </div>
