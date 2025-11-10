@@ -84,52 +84,24 @@ body {
   line-height: 1.8;
 }
 
-.future-section {
-  background: #1a1a1a;
-  border: 2px solid #333;
-  border-radius: 12px;
-  padding: 2rem;
-  margin: 2rem 0;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-}
-
-.future-section h3 {
-  color: #4facfe;
-  margin-top: 0;
-  font-weight: 700;
-}
-
-.idea-card {
-  background: #2a2a2a;
-  border-left: 5px solid #4facfe;
-  padding: 1.5rem;
-  border-radius: 10px;
-  margin: 1.5rem 0;
-  border: 1px solid #333;
-}
-
-.idea-card strong {
-  color: #ffffff;
-  font-size: 1.05rem;
-}
-
-.learning-goal {
-  background: #1a1a1a;
-  border-radius: 10px;
-  padding: 1.75rem;
-  margin: 1.5rem 0;
-  border: 2px solid #333;
-}
-
-.learning-goal h3 {
-  color: #4facfe;
-  margin-top: 0;
-  font-weight: 700;
-}
-
-.learning-goal p, .learning-goal ul {
+/* Ensure section text is readable */
+.future-section p,
+.future-section ul,
+.future-section ol {
   color: #d0d0d0;
-  line-height: 1.7;
+  line-height: 1.8;
+}
+
+.idea-card p,
+.idea-card ul {
+  color: #d0d0d0;
+  line-height: 1.8;
+}
+
+.learning-goal p,
+.learning-goal ul {
+  color: #d0d0d0;
+  line-height: 1.8;
 }
 
 .learning-goal strong {
