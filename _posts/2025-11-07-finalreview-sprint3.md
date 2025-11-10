@@ -8,138 +8,52 @@ comments: true
 ---
 
 <style>
-body {
-  background: #0a0a0a;
-  color: #ffffff;
-}
-
 .nav-buttons {
   display: flex;
   justify-content: space-between;
-  margin: 2.5rem 0;
-  gap: 1rem;
-  flex-wrap: wrap;
+  margin: 20px 0;
 }
-
 .nav-button {
-  padding: 0.875rem 1.75rem;
-  background: #ffffff;
-  color: #0a0a0a;
+  padding: 8px 16px;
+  background: linear-gradient(90deg, #007bff, #00c6ff);
+  color: white;
   text-decoration: none;
   border-radius: 10px;
-  font-weight: 600;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
-  font-size: 0.95rem;
+  font-weight: 500;
+  transition: 0.3s ease;
 }
-
 .nav-button:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.3);
-  color: #0a0a0a;
-  background: #f0f0f0;
+  opacity: 0.85;
+  transform: scale(1.02);
 }
-
 .page-header {
-  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
-  color: white;
-  padding: 2.5rem 2rem;
-  border-radius: 16px;
-  margin-bottom: 2rem;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
-  border: 1px solid #333;
+  text-align: center;
+  margin: 40px 0;
 }
-
-.page-header h1 {
-  margin: 0;
-  font-size: 2.5rem;
-  font-weight: 700;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
-  color: #ffffff;
-}
-
 .content-section {
-  background: #1a1a1a;
-  padding: 2rem;
-  border-radius: 12px;
-  margin: 2rem 0;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
-  border-left: 4px solid #4facfe;
-  border: 1px solid #333;
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  padding: 25px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
-
-.content-section h2 {
-  color: #ffffff;
-  margin-top: 0;
-  font-weight: 700;
+.success-box, .reflection-box {
+  background-color: #e8f6f3;
+  border-left: 5px solid #00a884;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
 }
-
-.content-section h3 {
-  color: #e0e0e0;
-  font-weight: 600;
-}
-
-.content-section p, .content-section ul {
-  color: #d0d0d0;
-  line-height: 1.8;
-}
-
 .feature-showcase {
-  background: #2a2a2a;
-  border-radius: 12px;
-  padding: 2rem;
-  margin: 2rem 0;
-  border: 2px solid #333;
+  background-color: #eef6ff;
+  border-left: 5px solid #007bff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
 }
-
-.feature-showcase h3 {
-  color: #4facfe;
+h2 {
+  color: #333;
   margin-top: 0;
-  font-weight: 700;
-}
-
-.reflection-box {
-  background: #2a2a2a;
-  border-left: 5px solid #fc8181;
-  padding: 1.75rem;
-  border-radius: 10px;
-  margin: 2rem 0;
-  border: 1px solid #333;
-}
-
-.reflection-box strong {
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-.success-box {
-  background: #2a2a2a;
-  border-left: 5px solid #48bb78;
-  padding: 1.75rem;
-  border-radius: 10px;
-  margin: 2rem 0;
-  border: 1px solid #333;
-}
-
-.success-box strong {
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-.success-box ul, .reflection-box ul {
-  margin: 1rem 0 0 0;
-  color: #d0d0d0;
-  line-height: 1.8;
-}
-
-@media (max-width: 768px) {
-  .nav-buttons {
-    flex-direction: column;
-  }
-  
-  .page-header h1 {
-    font-size: 2rem;
-  }
 }
 </style>
 
@@ -153,158 +67,155 @@ body {
 </div>
 
 <div class="content-section">
-<h2>The Struggle of Getting Started</h2>
+  <h2>Reuniting with Original Team</h2>
+  <p>In the final sprint, I went back to my original group for the Digital Famine project. This time, though, things were completely different. We had all grown as developers and as teammates. We were much more organized than before, everyone had a specific task, and we communicated better. It was like night and day compared to Sprint 1.</p>
 
-<p>At the beginning of the year, I struggled a lot with the setup process and just figuring out what to do. My group at the time was really advanced, and while they worked quickly, I often felt left behind. They didn't really explain what I should be doing, so I had to figure out a lot of things on my own. The worst part was getting my tools to actually work. I kept running into issues with make commands and virtual environments that I didn't know how to fix. Everyone else seemed to have their environment running smoothly while I was stuck troubleshooting for hours.</p>
+  <div class="success-box">
+    <strong>What Improved from Sprint 1:</strong>
+    <ul>
+      <li><strong>Better planning:</strong> We mapped out features before coding</li>
+      <li><strong>Clear task distribution:</strong> Everyone owned specific features</li>
+      <li><strong>Version control discipline:</strong> Proper branching and pull requests</li>
+      <li><strong>Regular testing:</strong> We tested each feature as it was built</li>
+      <li><strong>Honest timelines:</strong> We didn't over-promise what we could deliver</li>
+    </ul>
+  </div>
 </div>
 
-## Reuniting with Original Team
+<div class="content-section">
+  <h2>The Digital Famine Concept</h2>
+  <p>Our project was an educational game with a storyline where users learn about computer science concepts by completing lessons. As they progress, they unlock parts of the story and collect scrolls that reveal more about the "digital famine" narrative.</p>
 
-In the final sprint, I went back to my original group for the Digital Famine project. This time, though, things were completely different. We had all grown as developers and as teammates. We were much more organized than before, everyone had a specific task, and we communicated better. It was like night and day compared to Sprint 1.
-
-<div class="success-box">
-<strong>What Improved from Sprint 1:</strong>
-<ul>
-  <li><strong>Better planning:</strong> We mapped out features before coding</li>
-  <li><strong>Clear task distribution:</strong> Everyone owned specific features</li>
-  <li><strong>Version control discipline:</strong> Proper branching and pull requests</li>
-  <li><strong>Regular testing:</strong> We tested each feature as it was built</li>
-  <li><strong>Honest timelines:</strong> We didn't over-promise what we could deliver</li>
-</ul>
+  <p><strong>Core Features:</strong></p>
+  <ul>
+    <li>Interactive lessons on programming concepts</li>
+    <li>Story-driven progression system</li>
+    <li>Vault feature for unlocking rewards</li>
+    <li>Quiz system to test knowledge</li>
+    <li>Progress tracking and save system</li>
+  </ul>
 </div>
 
----
+<div class="content-section">
+  <h2>My Contributions</h2>
 
-## The Digital Famine Concept
+  <div class="feature-showcase">
+    <h3>Vault System</h3>
+    <p>I worked mainly on the Vault feature — after completing lessons, users would get a code they could enter into the vault to unlock a scroll as part of our storyline.</p>
 
-Our project was an educational game with a storyline where users learn about computer science concepts by completing lessons. As they progress, they unlock parts of the story and collect scrolls that reveal more about the "digital famine" narrative.
+    <p><strong>How It Worked:</strong></p>
+    <ol>
+      <li>Complete a lesson module</li>
+      <li>Receive a unique unlock code</li>
+      <li>Enter code in the Vault interface</li>
+      <li>Unlock a scroll with story content and lore</li>
+      <li>Track progress in user's profile</li>
+    </ol>
 
-**Core Features:**
-- Interactive lessons on programming concepts
-- Story-driven progression system
-- Vault feature for unlocking rewards
-- Quiz system to test knowledge
-- Progress tracking and save system
+    <p><strong>Technical Implementation:</strong></p>
+    <ul>
+      <li>Used localStorage to save unlocked scrolls</li>
+      <li>Implemented code validation system</li>
+      <li>Created animations for the unlock sequence</li>
+      <li>Designed the visual interface for the vault</li>
+      <li>Added error handling for invalid codes</li>
+    </ul>
 
----
+    <p><strong>Challenges I Faced:</strong></p>
+    <ul>
+      <li>Making sure codes couldn't be guessed easily</li>
+      <li>Preventing users from unlocking scrolls out of order</li>
+      <li>Creating smooth animations that didn't lag</li>
+      <li>Syncing vault progress with overall game progress</li>
+    </ul>
+  </div>
 
-## My Contributions
+  <h3>Vault Quiz System</h3>
+  <p>I also helped with the Vault quiz, which tested everything the player had learned. The quiz had to be smart enough to:</p>
+  <ul>
+    <li>Pull questions from multiple topic areas</li>
+    <li>Track which concepts the user struggled with</li>
+    <li>Provide immediate feedback on answers</li>
+    <li>Save quiz results for later review</li>
+    <li>Generate different questions each time</li>
+  </ul>
 
-### The Vault Feature
-
-<div class="feature-showcase">
-<h3>Vault System</h3>
-
-I worked mainly on the Vault feature — after completing lessons, users would get a code they could enter into the vault to unlock a scroll as part of our storyline.
-
-**How It Worked:**
-1. Complete a lesson module
-2. Receive a unique unlock code
-3. Enter code in the Vault interface
-4. Unlock a scroll with story content and lore
-5. Track progress in user's profile
-
-**Technical Implementation:**
-- Used localStorage to save unlocked scrolls
-- Implemented code validation system
-- Created animations for the unlock sequence
-- Designed the visual interface for the vault
-- Added error handling for invalid codes
-
-**Challenges I Faced:**
-- Making sure codes couldn't be guessed easily
-- Preventing users from unlocking scrolls out of order
-- Creating smooth animations that didn't lag
-- Syncing vault progress with overall game progress
+  <p><strong>What I Learned:</strong></p>
+  <ul>
+    <li>How to randomize arrays without repeating elements</li>
+    <li>Creating reusable quiz components</li>
+    <li>Better UI/UX for question displays</li>
+    <li>Form validation and user feedback patterns</li>
+  </ul>
 </div>
-
-### Vault Quiz System
-
-I also helped with the Vault quiz, which tested everything the player had learned. The quiz had to be smart enough to:
-- Pull questions from multiple topic areas
-- Track which concepts the user struggled with
-- Provide immediate feedback on answers
-- Save quiz results for later review
-- Generate different questions each time
-
-**What I Learned:**
-- How to randomize arrays without repeating elements
-- Creating reusable quiz components
-- Better UI/UX for question displays
-- Form validation and user feedback patterns
-
----
-
-## What I'd Change
 
 <div class="reflection-box">
-<strong>If I Could Do It Over:</strong>
+  <strong>If I Could Do It Over:</strong>
+  <p>If I could change anything, I'd probably spend more time helping with the actual lesson content instead of just the coding side. I tested all the lessons and noticed some parts that could've been clearer, but we didn't have enough time to fix them before the deadline. Another problem was that our theming on the page was super inconsistent, with different colors and fonts. This didn’t represent our teamwork well, and it’s something I’d fix next time.</p>
 
-If I could change anything, I'd probably spend more time helping with the actual lesson content instead of just the coding side. I tested all the lessons and noticed some parts that could've been clearer , but we didn't have enough time to fix them before the deadline. Another problem was that our themeing on the page was super inconsistent, with different colors and different fonts on everything. This was not a good representation of our teamwork, and this should be considered next time.
+  <p><strong>Specific Improvements:</strong></p>
+  <ul>
+    <li>More consistent difficulty progression in lessons</li>
+    <li>Better explanations for complex concepts</li>
+    <li>More interactive examples in each lesson</li>
+    <li>Clearer instructions for users</li>
+    <li>Better error messages when users get stuck</li>
+  </ul>
 
-**Specific Improvements:**
-- More consistent difficulty progression in lessons
-- Better explanations for complex concepts
-- More interactive examples in each lesson
-- Clearer instructions for what users need to do
-- Better error messages when users get stuck
-
-**Time Management:**
-We should have started the lesson content earlier instead of focusing so heavily on the vault and quiz systems first. The features were great, but they're useless if the lessons aren't engaging.
+  <p><strong>Time Management:</strong> We should have started lesson content earlier instead of focusing so heavily on vault and quiz systems first. The features were great, but they're useless if the lessons aren't engaging.</p>
 </div>
 
----
+<div class="content-section">
+  <h2>Team Dynamics Success</h2>
+  <p>Compared to Sprint 1, our teamwork was much better, though I sometimes had to assign tasks to myself instead of being given them directly.</p>
 
-## Team Dynamics Success
+  <p><strong>Communication:</strong></p>
+  <ul>
+    <li>Group chat updates and discussions</li>
+    <li>Collaborating during 4th period work sessions</li>
+    <li>Honest feedback when something wasn’t working</li>
+  </ul>
 
-Compared to Sprint 1, our teamwork was much better in comparison, however I somehow felt like I had to assign my own work to myself rather than being given tasks to do.
+  <p><strong>Problem-Solving:</strong></p>
+  <ol>
+    <li>Worked through blockers as a team</li>
+    <li>Messaged each other after school when needed</li>
+    <li>Tracked mistakes to avoid repeating them</li>
+  </ol>
 
-**Communication:**
-- Messages to each other in our group chat
-- Work together as a team every 4th period
-- Updated each other on how everything was going
-- Honest feedback when something wasn't working
+  <p><strong>Code Quality Improvements:</strong></p>
+  <ul>
+    <li>Code reviews before pushing (after theming issues taught us a lesson)</li>
+    <li>Consistent naming and permalink conventions</li>
+  </ul>
+</div>
 
-**Problem-Solving:**
-When someone hit a roadblock, we'd:
-1. Work through it together as a team
-2. Message each other at home 
-3. Make sure that we don't repeat mistakes
+<div class="content-section">
+  <h2>Technical Growth</h2>
+  <p>This sprint pushed me to learn:</p>
+  <p><strong>Frontend:</strong></p>
+  <ul>
+    <li>Combining CSS and Markdown</li>
+    <li>Responsive navigation design</li>
+    <li>Clean layout organization</li>
+  </ul>
+  <p><strong>General:</strong></p>
+  <ul>
+    <li>Stronger teamwork and communication</li>
+    <li>Debugging through collaboration</li>
+    <li>Writing clearer documentation and comments</li>
+  </ul>
+</div>
 
-**Code Quality Improvements:**
-- Code reviews before pushing (theming got completely messed up when we didnt check, and afterwards, we checked each push with eachother)
-- Consistent naming conventions (We ended up changing the permalinks a lot and it got confusing)
-
-
----
-
-## Technical Growth
-
-This sprint pushed me to learn:
-
-
-**Frontend:**
-- CSS and markdown in combination
-- Making sure navigation is clean on everything
-- Making the site look nice and responsive
-
-**General:**
-- Better teamwork in a group setting
-- How to handle errors and work through them together
-- The importance of clear documentation and code comments
-
-
----
-
-## Pride Points
-
-Despite the things I'd change, I was proud of:
-- The functionality and intuitiveness of the vault
-- Save feature on the quiz
-- How well our team collaborated
-- Actually finishing a complete, working project
-
----
+<div class="content-section">
+  <h2>Pride Points</h2>
+  <ul>
+    <li>The vault’s functionality and design</li>
+    <li>Save feature on the quiz</li>
+    <li>Team collaboration and completion</li>
+    <li>Finishing a fully working project</li>
+  </ul>
+</div>
 
 <div class="nav-buttons">
   <a href="{{ site.baseurl }}/finalreviewblog/sprint2" class="nav-button">← Previous: Sprint 2</a>
