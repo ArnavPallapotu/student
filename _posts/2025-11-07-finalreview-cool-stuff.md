@@ -2,7 +2,7 @@
 layout: base
 title: Something Cool I Learned
 description: Interesting things I discovered and want to share from this trimester
-permalink: /finalreviewblog/cool-stuff
+permalink: /finalreviewblog/cool-stuff/
 toc: true
 comments: true
 ---

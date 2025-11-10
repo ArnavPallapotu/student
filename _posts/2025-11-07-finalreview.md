@@ -176,7 +176,7 @@ body {
     <h3>Future</h3>
   </a>
 
-  <a href="{{ site.baseurl }}/finalreviewblog/cool-stuff" class="topic-card">
+  <a href="{{ site.baseurl }}/finalreviewblog/cool-stuff/" class="topic-card">
     <h3>Cool Stuff</h3>
   </a>
 </div>
