@@ -163,15 +163,15 @@ The vault works well for unlocking scrolls, but I’d like to make it a bit more
 <div class="future-section">
 <div class="idea-card">
 <strong>Better Feedback & Visuals</strong>
-- Smooth animation for the vault opening  
+- Smooth animation for the vault opening (we wanted a physical vault to be opened originally)
 - Particle or celebration effects when a scroll is unlocked  
 - Optional sound effects  
 </div>
 
 <div class="idea-card">
 <strong>Progress & Challenge</strong>
-- Track collection progress visually  
-- Secret scrolls or bonus challenges for more engagement  
+- Adding a progress bar for the quiz which additionally updates user on percentage of questions right so far
+- Secret scrolls or bonus challenges for more engagement (like a challenge lesson that gives you a secret vault code)
 </div>
 </div>
 
