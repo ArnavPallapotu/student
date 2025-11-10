@@ -188,34 +188,80 @@ When we switched teams for Sprint 2, things felt different. My new group was org
 
 ## Learning the Fundamentals
 
-This sprint focused on the basics of Python and JavaScript. Python was mostly review for me, but JavaScript was new. Comparing the two languages helped me understand when to use each and how they handle similar concepts differently.
+<div class="content-section">
+<h2>Fundamentals Through Homework</h2>
+<p>Most of my actual learning this sprint came from working through the homework notebooks. Doing the Python and JavaScript versions of the same concepts side-by-side helped me understand both languages more deeply.</p>
 
 <div class="language-comparison">
   <div class="lang-card">
     <h3>Python</h3>
-    <p><strong>What I Reviewed:</strong></p>
+    <p><strong>Homework Topics I Practiced:</strong></p>
     <ul>
-      <li>Lists, dictionaries, and sets</li>
-      <li>Loops and conditionals</li>
-      <li>Functions and parameters</li>
-      <li>List comprehensions</li>
-      <li>Basic object-oriented programming</li>
+      <li>Variables & data types (numbers, strings, lists, dictionaries, sets)</li>
+      <li>Strings: indexing, slicing, escape sequences</li>
+      <li>Lists: iteration with for / while, list methods, list comprehensions</li>
+      <li>Dictionaries vs lists for structured data (key/value access)</li>
+      <li>Booleans & conditionals (if / elif / else, logical operators)</li>
+      <li>Iterations & loops (counting, filtering, building output)</li>
+      <li>Random module for generating values and simple game logic</li>
+      <li>Math operations and operator precedence</li>
+      <li>Developing algorithms step-by-step (planning first, coding second)</li>
+      <li>Algorithmic efficiency basics (why some loops are slower)</li>
+      <li>Creating & calling procedures (functions, parameters, return)</li>
+      <li>Data abstractions (intro to organizing data cleanly)</li>
+      <li>Writing readable code (indentation, naming, clarity)</li>
     </ul>
-    <p><strong>Good For:</strong> Backend logic, data handling, clear syntax</p>
+    <p><strong>Good For:</strong> Algorithms, data handling, quick prototyping.</p>
   </div>
 
   <div class="lang-card">
     <h3>JavaScript</h3>
-    <p><strong>What I Learned:</strong></p>
+    <p><strong>Homework Topics I Practiced:</strong></p>
     <ul>
-      <li>Variable scoping (let, const, var)</li>
-      <li>Arrow functions and callbacks</li>
-      <li>Array methods like map, filter, and reduce</li>
-      <li>DOM manipulation and event handling</li>
-      <li>Making interactive pages</li>
+      <li>Variables (let / const / var) and scope differences</li>
+      <li>Data abstractions with objects (key/value, nested structures)</li>
+      <li>Arrays vs Python lists (push/pop vs append, mutation patterns)</li>
+      <li>Strings & escape sequences (building formatted output)</li>
+      <li>Booleans & conditionals (if / else, switch, ternary)</li>
+      <li>Iterations: for, while, for...of, and array methods (map, filter, reduce)</li>
+      <li>Randomization for simple logic (Math.random)</li>
+      <li>Math operations and rounding (Math.floor / Math.ceil)</li>
+      <li>Developing algorithms (breaking tasks into helper functions)</li>
+      <li>Algorithmic efficiency basics (nested loops vs single pass)</li>
+      <li>Calling & creating procedures (functions, parameters, return values)</li>
+      <li>Organizing code for reusability (separating logic from output)</li>
     </ul>
-    <p><strong>Good For:</strong> Frontend interactivity and user interfaces</p>
+    <p><strong>Good For:</strong> UI interactivity, DOM/events, dynamic pages.</p>
   </div>
+</div>
+
+<h3>Key Cross-Language Insights</h3>
+<ul>
+  <li>Scope is stricter/clearer in JavaScript with <code>let</code>/<code>const</code>; Python is more global unless inside functions.</li>
+  <li>Lists in Python and Arrays in JavaScript feel similar but built-in methods differ (e.g., <code>append</code> vs <code>push</code>).</li>
+  <li>Dictionary vs Object: access patterns similar (<code>obj.key</code> / <code>dict['key']</code>) but iteration differs.</li>
+  <li>Random functionality: <code>random.randint()</code> vs <code>Math.floor(Math.random() * n)</code>.</li>
+  <li>List comprehension in Python vs chaining <code>map</code>/<code>filter</code> in JavaScript for transformations.</li>
+  <li>Both languages require planning before coding for longer algorithms (shown in developing algorithms notebooks).</li>
+</ul>
+
+<h3>Homework Topic Summary</h3>
+<ul>
+  <li><strong>Variables & Data:</strong> variables_javascript / variables_python</li>
+  <li><strong>Strings:</strong> strings_escape_room_js / strings_escape_room_py</li>
+  <li><strong>Lists & Arrays:</strong> lists_javascript / lists_python</li>
+  <li><strong>Booleans & Logic:</strong> boolean_javascript / boolean_python</li>
+  <li><strong>Randomization:</strong> random_escape_room_js / random usage in Python</li>
+  <li><strong>Iterations:</strong> iterations_js / iterations_python</li>
+  <li><strong>Math & Operations:</strong> math_codemaxxers_javascript / math_codemaxxers_python</li>
+  <li><strong>Data Abstractions:</strong> data_abstractions_hacks (both)</li>
+  <li><strong>Developing Algorithms:</strong> developing-algorithms (both)</li>
+  <li><strong>Algorithmic Efficiency:</strong> algorithmic-efficiency (intro to thinking about time)</li>
+  <li><strong>Calling Procedures:</strong> calling_procedures (functions usage)</li>
+  <li><strong>Developing Procedures:</strong> developing_procedures (writing my own functions)</li>
+</ul>
+
+<p>Doing each concept twice (once in Python, once in JavaScript) made me notice patterns instead of just memorizing syntax.</p>
 </div>
 
 ---
